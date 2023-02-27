@@ -61,10 +61,10 @@
                 <CTableHeaderCell scope="col">نام خانوادگی</CTableHeaderCell>
                 <CTableHeaderCell scope="col">کد ملی</CTableHeaderCell>
                 <CTableHeaderCell scope="col">وضعیت</CTableHeaderCell>
-                <CTableHeaderCell scope="col">تاریخ خروج</CTableHeaderCell>
-                <CTableHeaderCell scope="col">علت</CTableHeaderCell>
-                <CTableHeaderCell scope="col">تحویل‌دهنده</CTableHeaderCell>
                 <CTableHeaderCell scope="col">تحویل‌گیرنده</CTableHeaderCell>
+                <CTableHeaderCell scope="col">تحویل‌دهنده</CTableHeaderCell>
+                <CTableHeaderCell scope="col">علت</CTableHeaderCell>
+                <CTableHeaderCell scope="col">تاریخ خروج</CTableHeaderCell>
                 <CTableHeaderCell scope="col">تاریخ بازگشت</CTableHeaderCell>
               </CTableRow>
             </CTableHead>
@@ -81,10 +81,10 @@
                 <CTableDataCell>{{
                   status_map[order.file.status]
                 }}</CTableDataCell>
-                <CTableDataCell>{{ order.date_received }}</CTableDataCell>
-                <CTableDataCell> {{ order.reason }}</CTableDataCell>
-                <CTableDataCell>{{ order.given_by }}</CTableDataCell>
                 <CTableDataCell>{{ order.received_by }}</CTableDataCell>
+                <CTableDataCell>{{ order.given_by }}</CTableDataCell>
+                <CTableDataCell> {{ order.reason }}</CTableDataCell>
+                <CTableDataCell>{{ order.date_received }}</CTableDataCell>
                 <CTableDataCell>{{ order.date_returned }}</CTableDataCell>
               </CTableRow>
             </CTableBody>

@@ -58,10 +58,10 @@
                 <CTableHeaderCell scope="col">نام</CTableHeaderCell>
                 <CTableHeaderCell scope="col">نام خانوادگی</CTableHeaderCell>
                 <CTableHeaderCell scope="col">کد ملی</CTableHeaderCell>
-                <CTableHeaderCell scope="col">تاریخ خروج</CTableHeaderCell>
                 <CTableHeaderCell scope="col">علت</CTableHeaderCell>
                 <CTableHeaderCell scope="col">تحویل‌دهنده</CTableHeaderCell>
                 <CTableHeaderCell scope="col">تحویل‌گیرنده</CTableHeaderCell>
+                <CTableHeaderCell scope="col">تاریخ خروج</CTableHeaderCell>
                 <CTableHeaderCell scope="col">اعمال</CTableHeaderCell>
               </CTableRow>
             </CTableHead>
@@ -75,10 +75,10 @@
                 <CTableDataCell>{{ order.file.first_name }}</CTableDataCell>
                 <CTableDataCell>{{ order.file.last_name }}</CTableDataCell>
                 <CTableDataCell>{{ order.file.national_id }}</CTableDataCell>
-                <CTableDataCell>{{ order.date_received }}</CTableDataCell>
                 <CTableDataCell>{{ order.reason }}</CTableDataCell>
                 <CTableDataCell>{{ order.given_by }}</CTableDataCell>
                 <CTableDataCell>{{ order.received_by }}</CTableDataCell>
+                <CTableDataCell>{{ order.date_received }}</CTableDataCell>
                 <CTableDataCell>
                   <CButton color="primary" @click="returned(order.id)"
                     >ثبت بازگشت</CButton

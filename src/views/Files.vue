@@ -151,13 +151,6 @@
                         "
                         >ثبت گزارش خروج
                       </CDropdownItem>
-                      <CDropdownItem href="#">ثبت گزارش بررسی</CDropdownItem>
-                      <CDropdownItem href="#"
-                        >دیدن گزارش‌های خروج</CDropdownItem
-                      >
-                      <CDropdownItem href="#"
-                        >دیدن گزارش‌های بررسی</CDropdownItem
-                      >
                     </CDropdownMenu>
                   </CDropdown>
                 </CTableDataCell>
